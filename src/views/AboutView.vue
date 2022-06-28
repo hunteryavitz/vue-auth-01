@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="about">
+    <h1>About</h1>
+  </main>
 </template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: 'AboutView',
+  components: {
+  }
+}
+</script>
